@@ -9,13 +9,13 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 
-set rtp+=/Library/Python/2.7/site-packages/powerline/bindings/vim
-set nocompatible
+" set rtp+=/Library/Python/2.7/site-packages/powerline/bindings/vim
+" set nocompatible
 
-let g:minBufExplForceSyntaxEnable = 1
-python from powerline.vim import setup as powerline_setup
-python powerline_setup()
-python del powerline_setup
+" let g:minBufExplForceSyntaxEnable = 1
+" python from powerline.vim import setup as powerline_setup
+" python powerline_setup()
+" python del powerline_setup
 
 if ! has('gui_running')
 	set ttimeoutlen=10
